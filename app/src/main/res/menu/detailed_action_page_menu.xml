@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bookmark_detailed_page"
+        android:icon="@drawable/ic_bookmark_border_black_40dp"
+        android:title="@string/bookmark"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/twitter_deatiled_page"
+        android:icon="@drawable/ic_icons8_twitter_40"
+        android:title="@string/twitter"
+        app:showAsAction="always" />
+
+</menu>

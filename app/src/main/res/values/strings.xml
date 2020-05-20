@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Headlines</string>
+    <string name="title_notifications">Trending</string>
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="dash">-</string>
+    <string name="enterSearchTextLabel">Enter Serach Term:</string>
+    <string name="viewArticle"><u>View Full Article</u></string>
+    <string name="no_bookmarks">No Bookmarked Articles</string>
+    <string name="search">Search</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="twitter">Twitter</string>
+    <string name="title_location_permission">Permission</string>
+    <string name="text_location_permission">Allow NewsApp to access this device\'s Location</string>
+    <string name="ok">Ok</string>
+    <string name="spinnertitle">Fetching News</string>
+</resources>

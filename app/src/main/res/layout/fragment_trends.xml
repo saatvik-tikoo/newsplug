@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.trends.TrendsFragment"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterSearchTextLabel"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:id="@+id/search_trends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edit_text_border"
+            android:textCursorDrawable="@drawable/my_custom_cursor"
+            android:hint="Coronavirus"
+            android:inputType="text"
+            android:imeOptions="actionSend"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_trends"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+    </LinearLayout>
+</ScrollView>
